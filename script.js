@@ -15,7 +15,7 @@ console.log(palindromeCheck(123)); */
 function palindromeCheck(number) {
     let numStr = number.toString();
     let numArr = numStr.split('');
-    console.log(numArr);
+    // console.log(numArr);
     
     return numArr.every((num, index) =>
         {console.log(num,index);
