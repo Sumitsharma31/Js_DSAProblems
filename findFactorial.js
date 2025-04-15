@@ -1,15 +1,18 @@
 // javascript program to find Factorial number of a num
+// 1. Using Iteration
 
-let  num=6;
-let res=1;
-const facFunc=(res)=>{
-    for (let index = 1; index <= num; index++) {
-       res*=index
+// let  num=6;
+// let res=1;
+// const facFunc=(res)=>{
+//     for (let index = 1; index <= num; index++) {
+//        res*=index
         
-    }
-    return res;
-}
-console.log(facFunc(res));
+//     }
+//     return res;
+// }
+// console.log(facFunc(res));
+
+
 // function fact(n) {
 //     let res = 1;
 //     for (let i = 1; i <= n; i++) {
