@@ -32,8 +32,17 @@
 // console.log(pow(n, power));
 
 // 3 by using inBuild Function 
-let n = 7;
-let power = 9;
+
+// let n = 7;
+// let power = 9;
+
+// // Calculate and display output
+// console.log(Math.pow(n,power));
+
+// 4  use the JavaScript ** operator
+
+let n = 17;
+let power = 3;
 
 // Calculate and display output
-console.log(Math.pow(n,power));
+console.log(n**power);
