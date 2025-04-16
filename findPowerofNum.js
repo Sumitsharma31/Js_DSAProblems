@@ -41,8 +41,29 @@
 
 // 4  use the JavaScript ** operator
 
-let n = 17;
-let power = 3;
+// let n = 17;
+// let power = 3;
+
+// // Calculate and display output
+// console.log(n**power);
+
+// Function to compute power using Exponentiation by Squaring
+
+function powerBySquaring(base, exponent) {
+    if (exponent === 0) return 1;
+    if (exponent % 2 === 0) {
+        let halfPower = powerBySquaring(base, exponent / 2);
+        return halfPower * halfPower;
+    } else {
+        return base * powerBySquaring(base, exponent - 1);
+    }
+}
+
+// Base number input
+let base = 2;
+
+// Power input
+let exponent = 10;
 
 // Calculate and display output
-console.log(n**power);
+console.log(powerBySquaring(base, exponent));
