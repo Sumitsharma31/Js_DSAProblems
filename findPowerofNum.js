@@ -17,16 +17,23 @@
 
 
 //2 Recursive function to compute Power
-function pow(n, p) {
-    if (p == 1) return n;
-    return n * pow(n, p - 1);
-}
+// function pow(n, p) {
+//     if (p == 1) return n;
+//     return n * pow(n, p - 1);
+// }
 
-// Base number input
-let n = 8;
+// // Base number input
+// let n = 8;
 
-// Power input
-let power = 3
+// // Power input
+// let power = 3
 
-// Display output
-console.log(pow(n, power));
+// // Display output
+// console.log(pow(n, power));
+
+// 3 by using inBuild Function 
+let n = 7;
+let power = 9;
+
+// Calculate and display output
+console.log(Math.pow(n,power));
