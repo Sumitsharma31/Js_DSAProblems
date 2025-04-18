@@ -6,9 +6,7 @@ function recursion(num){
         recursion(num-1)
         console.log(num);
     }
-    
-    
-    
+ 
 }
 recursion(5);
 
