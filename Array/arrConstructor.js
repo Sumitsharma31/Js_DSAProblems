@@ -13,13 +13,23 @@
 
 
 // Initialize an array using the apply function
-let arr = Array.apply(1, Array(5)).map((_, index) => {
-    return _ , index
-}); 
+
+
+// let arr = Array.apply(1, Array(5)).map((_, index) => {
+//     return _ , index
+// }); 
 
 
 
-// Display the length and generated array
-console.log("Length of the Array:", arr.length);
+// // Display the length and generated array
+// console.log("Length of the Array:", arr.length);
 
-console.log("Array Values: ", arr);
+// console.log("Array Values: ", arr);
+
+
+let len=5;
+let arr=new Array();
+for (let i=0;i<len; i++){
+    arr.push(i);
+}
+console.log(arr);
