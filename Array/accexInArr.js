@@ -4,13 +4,11 @@ const arr=new Array(5,4,8,6);
 // These are the following ways to Access Elements in an Array:
 
 // 1. Using Square Bracket Notation
+console.log(arr[3]);
 
-let firstV=arr[0];
-console.log(arr);
 const newArr=[];
 // 2. Using forEach Loop
-for(let i=0;i<arr.length;i++){
-
-newArr[i]=arr[i]
-}
-console.log(newArr,"Copy");
+const a = [100, 200, 300, 400, 500];
+a.forEach((item, index,Array) => {
+    console.log(item );
+});
