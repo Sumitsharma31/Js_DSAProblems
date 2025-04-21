@@ -23,8 +23,13 @@ console.log(arr[3]);
 
 // 4. Using find method
 
- newReturn=arr.find((item)=>{
-    return item>5;
-})
-console.log(newReturn);
-console.log(typeof(newReturn));
+//  newReturn=arr.find((item)=>{
+//     return item>5;
+// })
+// console.log(newReturn);
+// console.log(typeof(newReturn));
+
+// 5. using filter method
+const a = [1, 2, 3, 4, 5];
+const res = a.filter(e => e > 2);
+console.log(res); 
