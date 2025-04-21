@@ -15,7 +15,16 @@ console.log(arr[3]);
 // });
 
 // 3. Using map method 
-arr.map((item,index)=>{
-    console.log(item);
+
+// arr.map((item,index)=>{
+//     console.log(item);
     
+// })
+
+// 4. Using find method
+
+ newReturn=arr.find((item)=>{
+    return item>5;
 })
+console.log(newReturn);
+console.log(typeof(newReturn));
