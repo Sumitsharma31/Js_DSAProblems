@@ -13,7 +13,7 @@
 
 // 2. Using String substr() Method
 
-let str = "Welcome to GeeksforGeeks";
+let str = "Welcome to India";
 
 let index = 11;
 
