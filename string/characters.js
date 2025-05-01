@@ -2,7 +2,7 @@
 
 // Method 1: Using String charAt() Method
 
-// let str = "Welcome to GeeksforGeeks";
+// let str = "Welcome to Patna";
 
 // let index = 11;
 
