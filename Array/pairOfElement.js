@@ -15,4 +15,3 @@ function findPairs(arr, sum) {
 }
 
 console.log(findPairs([1, 3, 2, 4, 5, 6], 7)); 
-// Output: [[3, 4], [2, 5], [1, 6]]
