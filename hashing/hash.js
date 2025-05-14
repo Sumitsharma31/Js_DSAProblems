@@ -43,3 +43,24 @@ class HashTable {
         }
     }
 }
+
+const hashExample = new HashTable();
+// insert
+hashExample.insert(100);
+hashExample.insert(87);
+hashExample.insert(86);
+hashExample.insert(12);
+hashExample.insert(9);
+
+
+console.log(hashExample.table); // -> shows the hash table
+
+// search
+hashExample.search(87); // found
+hashExample.search(10); // not found
+
+// delete
+hashExample.delete(12);
+
+// showing table after deletion
+console.log(hashExample.table);
